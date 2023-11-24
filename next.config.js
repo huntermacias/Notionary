@@ -5,7 +5,7 @@ const nextConfig = {
   },
   images: {
     remotePatterns: [
-      { hostname: 'cmkwjiefdmjezdsgncpq.supabase.co' },
+      { hostname: ['cmkwjiefdmjezdsgncpq.supabase.co', 'https://notionary.vercel.app/_next/static/media/cypresslogo.ab70973a.svg'] },
     ],
   },
 };
