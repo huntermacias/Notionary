@@ -16,38 +16,12 @@ type Metadata = {
   title: string;
   description: string;
   imageUrl?: string;
-  twitter?: {
-    cardType: string;
-    site?: string;
-    creator?: string;
-  };
-  openGraph?: {
-    title: string;
-    type: string;
-    url: string;
-    image: string;
-    description: string;
-    site_name: string;
-  };
-};
+}
 
 export const metadata: Metadata = {
   title: 'Notionary - Revolutionize Your Note-Taking',
   description: 'Notionary brings your note-taking experience to the next level. Organize, share, and collaborate on your notes and documents, all in one place.',
   imageUrl: 'https://notionary.vercel.app/_next/static/media/cypresslogo.ab70973a.svg', // Replace with your app's Open Graph image URL
-  twitter: {
-    cardType: 'summary_large_image',
-    site: '@YourTwitterHandle', // Replace with your app's Twitter handle
-    creator: '@huntermacias_', // Replace with the creator's Twitter handle
-  },
-  openGraph: {
-    title: 'Notionary - Revolutionize Your Note-Taking',
-    type: 'website',
-    url: 'https://yourdomain.com', // Replace with your app's URL
-    image: 'https://yourdomain.com/images/notionary-og-image.jpg',
-    description: 'Notionary brings your note-taking experience to the next level. Organize, share, and collaborate on your notes and documents, all in one place.',
-    site_name: 'Notionary',
-  },
 };
 
 

@@ -1,0 +1,18 @@
+# railway.toml
+
+[build]
+commands = ["npm install --omit=dev", "npm run build"]
+
+[deploy]
+commands = ["npm start"]
+
+[env]
+DATABASE_URL = "postgresql://postgres:LQysD4K5TftcgADi@db.cmkwjiefdmjezdsgncpq.supabase.co:5432/postgres"
+NEXT_PUBLIC_SUPABASE_URL = "https://cmkwjiefdmjezdsgncpq.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNta3dqaWVmZG1qZXpkc2duY3BxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA3NDgwMzAsImV4cCI6MjAxNjMyNDAzMH0.2TnoPknXH0VCQbMjurJWRNnKnX2mdbB9kZaO5BRvNFo"
+SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNta3dqaWVmZG1qZXpkc2duY3BxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwMDc0ODAzMCwiZXhwIjoyMDE2MzI0MDMwfQ.gGYqaM03ssGJDZo2aWP0nn3Z8gw1a-8toew0q8lMEj0"
+PW = "LQysD4K5TftcgADi"
+NEXT_PUBLIC_SITE_URL = "http://localhost:3000/"
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = "pk_test_51OFqIMIG6b6d28mMitX3CctiOGTJnBwgKBM4IaQbQTllCTSjgvGcUVTjdQcoRAGOQUMCruhklCr0btNJuyB9dElj008gmcgeSv"
+STRIPE_SECRET_KEY = "sk_test_51OFqIMIG6b6d28mM0uWyXljAuKAL48TRlnHqoIDPPp6Nu5MfKtA2BfBkpoDd7cMg1MsPJWCqP4xRmGIZtwr9TxXG0078a7MHzq"
+STRIPE_WEBHOOK_SECRET = "whsec_58592fd96fc7a2ac56f8b3047c0f135ceaa87ffa381bb9b2013177d0f7654e76"
